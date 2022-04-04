@@ -1,5 +1,13 @@
-body {
-  margin-left: 15rem;
-  margin-right: 15rem;
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+.container {
+  margin-bottom: 3rem;
+}
+
+#footer {
+  background-color: #f8f9fa;
 }
 /*# sourceMappingURL=style.css.map */
