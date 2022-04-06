@@ -10,4 +10,9 @@ ul {
 #footer {
   background-color: #f8f9fa;
 }
+
+img {
+  max-height: 100%;
+  max-width: 100%;
+}
 /*# sourceMappingURL=style.css.map */
