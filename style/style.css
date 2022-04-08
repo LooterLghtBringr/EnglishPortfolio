@@ -15,4 +15,52 @@ img {
   max-height: 100%;
   max-width: 100%;
 }
+
+.container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.auto-margin {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  background-color: #f9f9f9;
+}
+
+.div-border {
+  border-top: 1px solid;
+}
+
+#objective {
+  font-size: 24px;
+}
+
+ul#menu li {
+  display: inline;
+  padding-right: 0.75rem;
+}
+
+.row {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.custom-margin {
+  margin-bottom: 2rem;
+}
+
+h4 {
+  margin-bottom: 2rem;
+}
+
+a {
+  font-size: 25px;
+}
 /*# sourceMappingURL=style.css.map */
