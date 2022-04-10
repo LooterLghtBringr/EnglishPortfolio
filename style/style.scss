@@ -68,6 +68,18 @@ a{
     font-size: 25px;
 }
 
+li > a:hover{
+    font-weight: 700;
+}
+
+.card:hover{
+    background-color: rgb(237, 237, 237);
+}
+
+a:hover{
+    color: red;
+}
+
 nav > .container-fluid{
     padding-left: 0;
 }
@@ -84,4 +96,8 @@ nav > .container-fluid{
 .carousel-img{
     max-width: 60%;
     max-height: 60%;
+}
+
+.custom-div{
+    padding-right: 40rem;
 }
