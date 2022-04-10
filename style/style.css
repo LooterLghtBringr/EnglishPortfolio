@@ -38,7 +38,7 @@ body {
   border-top: 1px solid;
 }
 
-#objective {
+.objective {
   font-size: 24px;
 }
 
@@ -74,5 +74,15 @@ nav > .container-fluid {
 
 .custom-padding {
   padding-left: 0;
+}
+
+.flex-right {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.carousel-img {
+  max-width: 60%;
+  max-height: 60%;
 }
 /*# sourceMappingURL=style.css.map */
