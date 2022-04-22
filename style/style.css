@@ -38,6 +38,13 @@ body {
   border-top: 1px solid;
 }
 
+.custom-size {
+  min-width: 50rem;
+  min-height: 15rem;
+  max-width: 50rem;
+  max-height: 15rem;
+}
+
 .objective {
   font-size: 24px;
 }
@@ -100,5 +107,12 @@ nav > .container-fluid {
 
 .custom-div {
   padding-right: 40rem;
+}
+
+p {
+  -webkit-hyphens: auto;
+      -ms-hyphens: auto;
+          hyphens: auto;
+  text-align: justify;
 }
 /*# sourceMappingURL=style.css.map */
