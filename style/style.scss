@@ -1,3 +1,6 @@
+$base-color: #f9f9f9;
+$secondary-color: rgb(237, 237, 237);
+
 ul{
     padding-left: 0;
     list-style: none;
@@ -8,7 +11,7 @@ ul{
 }
 
 #footer{
-    background-color: #f9f9f9;
+    background-color: $base-color;
 }
 
 img{
@@ -27,11 +30,15 @@ img{
 }
 
 body{
-    background-color: #f9f9f9;
+    background-color: $base-color;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    background-color: black;
 }
 
 .accordion-body, .accordion-item, .accordion-header, .accordion-button, .card{
-    background-color: #f9f9f9;
+    background-color: $base-color;
 }
 
 .div-border{
@@ -45,8 +52,18 @@ body{
     max-height: 15rem;
 }
 
+#carouselExampleControls{
+    background-color: $secondary-color;
+}
+
 .objective{
     font-size: 24px;
+}
+
+.carousel-objective{
+    font-size: 24px;
+    padding-left: 15rem;
+    padding-right: 15rem;
 }
 
 ul#menu li {
